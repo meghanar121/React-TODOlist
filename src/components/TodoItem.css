@@ -1,0 +1,33 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+.todos_container li {
+  margin: 1rem;
+  padding: 15px;
+  font-size: 18px;
+  text-align: left;
+  list-style-type: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s all ease-in;
+  -o-transition: 0.5s all ease-in;
+  transition: 0.5s all ease-in;
+}
+
+.todos_container li:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.todos_container li .times-icon {
+  float: right;
+  margin-left: 2rem;
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.todos_container li .times-icon:hover {
+  cursor: pointer;
+  color: #c31432;
+}

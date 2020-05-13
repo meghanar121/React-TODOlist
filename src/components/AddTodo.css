@@ -1,0 +1,50 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+.formAddTodo {
+  text-align: center;
+  padding: 15px;
+}
+
+.formAddTodo input {
+  border: 1px solid #000;
+  padding: 7px 10px;
+}
+
+.formAddTodo .btn-default {
+  background: #ff7345;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+.formAddTodo,
+.formAddTodo input,
+.formAddTodo .btn-default {
+  -webkit-transition: 0.6s all ease-out;
+  -o-transition: 0.6s all ease-out;
+  transition: 0.6s all ease-out;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.formAddTodo:hover,
+.formAddTodo input:hover,
+.formAddTodo .btn-default:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+@media (max-width: 767px) {
+  .formAddTodo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374pxa) {
+  .formAddTodo {
+    padding: 0;
+  }
+}

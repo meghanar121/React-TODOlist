@@ -1,0 +1,22 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+.footer {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.footer h1 {
+  font-size: 22px;
+}
+
+.footer a {
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+}
+
+.footer a:hover {
+  color: #240b36;
+}

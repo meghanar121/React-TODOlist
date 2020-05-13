@@ -1,0 +1,45 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin:400,500,700&display=swap');
+
+body {
+  font-weight: 400;
+  font-family: 'Pangolin', cursive;
+  background: #fa709a; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fee140),
+    to(#fa709a)
+  );
+  background: -o-linear-gradient(top, #fee140,#fa709a);
+  background: linear-gradient(
+    to bottom,
+    #fee140,
+    #fa709a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-y: hidden;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.app_container {
+  height: 50vh;
+  display: flex; 
+  flex-direction: column;
+}
+
+.successfully-message {
+  margin: 1rem;
+  color: #045319;
+  text-align: center;
+}

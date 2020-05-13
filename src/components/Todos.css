@@ -1,0 +1,23 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+.todos_container {
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.todos_container h2 {
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+@media (max-width: 767px) {
+  .todos_container {
+    padding: initial;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
